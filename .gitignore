@@ -42,3 +42,6 @@
 
 # Resource files
 Resource Files/
+
+# Output file
+.txt
