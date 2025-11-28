@@ -1,0 +1,5 @@
+Suspicious Activity Report - Generated 2025-11-28
+-------------------------------------------------
+Keyword Violations: 6
+Untrusted Senders: 2
+High-Frequency Senders: 4

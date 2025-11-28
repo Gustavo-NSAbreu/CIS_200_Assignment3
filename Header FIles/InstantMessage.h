@@ -2,6 +2,7 @@
 
 #include <string>
 #include "Message.h"
+#include "Config.h"
 
 using namespace std;
 
@@ -11,10 +12,9 @@ private:
 public:
     InstantMessage(const string& sender, const string& timestamp, const string& content,
           const string& platform)
-        : Message(sender, timestamp, content), platform(platform) {}
+        : Message(INSTANT_MESSAGE, sender, timestamp, content), platform(platform) {}
 
     void printMessage() const override {
-        
+        cout << "[" << type << "] " << "From " << platform << ", " << sender << " says " << content << endl;
     }
-
 };
