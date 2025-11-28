@@ -24,6 +24,7 @@ void SpamAnalyzer::readMessageFile() {
 
     string buffer;
 
+    // Open file
     ifstream isMessage(MESSAGES_FILE);
     if (!isMessage) {
         cerr << "Error: Unable to open file " << MESSAGES_FILE << endl;
@@ -103,6 +104,7 @@ void SpamAnalyzer::readKeywordFile() {
 
     string keyword;
 
+    // Open file
     ifstream isKeyword(KEYWORDS_FILE);
     if (!isKeyword) {
         cerr << "Error: Unable to open file " << KEYWORDS_FILE << endl;
@@ -125,6 +127,7 @@ void SpamAnalyzer::readValidSenderFile() {
 
     string sender;
     
+    // Open file
     ifstream isValidSender(VALID_SENDERS_FILE);
     if (!isValidSender) {
         cerr << "Error: Unable to open file " << VALID_SENDERS_FILE << endl;

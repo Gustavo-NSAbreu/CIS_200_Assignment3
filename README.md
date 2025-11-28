@@ -1,7 +1,7 @@
 # CIS_200_Assignment3
 
 ## Team
-Gustavo Nascimento Santos de Abreu
+Gustavo Nascimento Santos de Abreu <br>
 Dheya Alrabeei
 
 ## Division
